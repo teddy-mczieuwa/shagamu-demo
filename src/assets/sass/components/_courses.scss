@@ -1,0 +1,43 @@
+.courses {
+    width: 30%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #555;
+
+    &__branding {
+        width: 100%;
+        text-align: center;
+        padding: .5rem 0;
+
+        &--img {
+            width: 50%;
+        }
+    }
+
+    h2 {
+        text-align: center;
+        color: #fcfcfc;
+        margin-bottom: .5rem;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+
+        li {
+            border: 1px solid #ddd;
+            padding: .5rem;
+            margin-top: -1px;
+            background-color: #555;
+            color: #fcfcfc;
+        
+
+            &:hover {
+                background-color: aliceblue;
+                color: #555;
+            }
+        }
+    }
+}

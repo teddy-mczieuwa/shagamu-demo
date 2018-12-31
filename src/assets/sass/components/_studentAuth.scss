@@ -1,0 +1,57 @@
+.student-auth {
+    width: 50%;
+    height: 10rem;
+    color: white;
+    position: absolute;
+    top: 15rem;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+
+    input[type=text] {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        padding: 1rem 2rem;
+        border: none;
+        color: #555;
+        font-style: italic;
+        border-radius: 5px;
+
+        &:focus {
+            outline: none;
+        }
+
+    }
+
+    input[type=password] {
+        display: block;
+        margin: 0 auto;
+        margin-top: 1rem;
+        padding: 1rem 2rem;
+        border: none;
+        color: #555;
+        font-style: italic;
+        border-radius: 5px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 1rem;
+        padding: 1rem 2rem;
+        border: none;
+        background-color: green;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.libraryPage {
+    //background-color: #555;
+    display: flex;
+    background-color: #fcfcfc;
+    width: 100vw;
+    height: 100vh;
+
+    &__heading{
+        margin:0 auto;
+        width: 70%;
+        text-align: center;
+    }
+}

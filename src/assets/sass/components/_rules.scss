@@ -1,0 +1,23 @@
+.rules {
+    width: 70%;
+
+    &__img {
+        width: 20rem;
+        padding: 1rem
+    }
+
+    &__content {
+        width: 70%;
+        margin: 1rem auto;
+        text-align: center;
+
+        p {
+            font-style: italic;
+            padding: 1rem;
+        }
+
+        &--penalty {
+            color: red;
+        }
+    }
+}

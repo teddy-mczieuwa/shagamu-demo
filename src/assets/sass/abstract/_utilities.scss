@@ -1,0 +1,21 @@
+.center-text {
+    text-align: center;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+    font-size: 2rem;
+
+    &--gray {
+        background-color: #555;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    
+}
+
